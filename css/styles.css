@@ -145,3 +145,28 @@ footer p {
 		width: 33.33%;
 	}
 }
+
+/* Media query for the header */
+
+@media screen and (max-width: 659px) {
+	.page-header {
+		text-align: center;
+	}
+	#img-container img {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 660px) and (max-width: 767px) {
+	.col-mix-3 {
+		width: 30%;
+		float: left;
+	}
+	.col-mix-7 {
+		width: 70%;
+		float: right;
+	}
+	.page-header {
+		text-align: left;
+	}
+}
