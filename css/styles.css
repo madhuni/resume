@@ -170,3 +170,14 @@ footer p {
 		text-align: left;
 	}
 }
+
+/* Media query for the work-experience section */
+
+@media screen and (min-width: 768px) {
+	.job-details {
+		padding-left: 0px;
+	}
+	.employment-details {
+		padding-right: 0px;
+	}
+}
