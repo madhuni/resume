@@ -82,3 +82,9 @@
 .progress {
 	height: 14px;
 }
+
+/* Styling the contact-section */
+.contact-list {
+	list-style: none;
+	padding-left: 0;
+}
