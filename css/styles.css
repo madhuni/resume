@@ -88,3 +88,36 @@
 	list-style: none;
 	padding-left: 0;
 }
+
+.icon-container {
+	color: #0082d6;
+	margin-right: 5px;
+}
+
+.icon-container h3 {
+	margin-top: 10px;
+}
+/* Styling for footer */
+footer {
+	text-align: center;
+	background-color: #000;
+	color: #ebebeb;
+}
+
+footer p {
+	margin: 10px 0 0;
+}
+.social-media-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.social-media-list li {
+	display: inline-block;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.sub-container {
+	padding-left: 15px;
+}
