@@ -52,7 +52,7 @@
 	font-weight: bold;
 }
 
-/* Syling the Education section */
+/* Styling the Education section */
 .edu-item {
 	margin-bottom: 5px;
 }
@@ -60,4 +60,25 @@
 .college {
 	font-size: 16px;
 	font-weight: bold;	
+}
+
+/* Styling the project section */
+
+.btn {
+	margin-bottom: 5px;
+}
+
+/* Styling the online courses section */
+.course-details div {
+	margin-bottom: 5px;
+}
+
+.online-course-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Styling the skills section */
+.progress {
+	height: 14px;
 }
