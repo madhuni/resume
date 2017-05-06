@@ -9,18 +9,20 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<div id="wrapper" class="container-fluid">
-		<header class="page-header">
+	<header class="page-header">
+		<div id="header-wrapper">
 			<div class="row">
 				<div id="img-container" class="col-mix-3 col-sm-3">
 					<img src="http://placehold.it/150x150" class="img-responsive img-circle" alt="profile picture">
 				</div>
 				<div id="name-role-container" class="col-mix-7 col-sm-9">
 					<h1 id="name">Kanishka Mohan Madhuni</h1>
-					<h4 id="role">Front End Web Developer</h2>
+					<h4 id="role">Front End Web Developer</h4>
 				</div>
-			</div>
-		</header>
+			</div>	
+		</div>
+	</header>
+	<div id="wrapper" class="container-fluid">
 		<section id="about-me">
 			<h2 class="section-heading">About Me</h2>
 			<div id="about-me-container">
@@ -63,6 +65,48 @@
 		<section id="featured-projects">
 			<h2 class="section-heading ">Featured Projects</h2>
 			<div class="row">
+				<div class="poject-thumbnail col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="http://images.tenplay.com.au/~/media/TV%20Shows/The%20Project/Design/2016/TheProject_2016_Logo_500x281.jpg" class="img-responsive" alt="project-image">
+						<div class="caption">
+							<h3 class="project-title">Classic Arcade Game Clone</h3>
+							<div class="skill-used">
+								<span class="label label-default">HTML</span>
+								<span class="label label-default">CSS</span>
+								<span class="label label-default">Javascript</span>
+								<span class="label label-default">jQuery</span>
+								<span class="label label-default">Less</span>
+								<span class="label label-default">Bootstrap</span>
+							</div>
+							<br>
+							<div class="button-container">
+								<a href="#" class="btn btn-primary">GitHub Repository</a>
+								<a href="#" class="btn btn-default">Visit Portfolio</a>								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="poject-thumbnail col-xs-12 col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="http://images.tenplay.com.au/~/media/TV%20Shows/The%20Project/Design/2016/TheProject_2016_Logo_500x281.jpg" class="img-responsive" alt="project-image">
+						<div class="caption">
+							<h3 class="project-title">Classic Arcade Game Clone</h3>
+							<div class="skill-used">
+								<span class="label label-default">HTML</span>
+								<span class="label label-default">CSS</span>
+								<span class="label label-default">Javascript</span>
+								<span class="label label-default">jQuery</span>
+								<span class="label label-default">Less</span>
+								<span class="label label-default">Bootstrap</span>
+							</div>
+							<br>
+							<div class="button-container">
+								<a href="#" class="btn btn-primary">GitHub Repository</a>
+								<a href="#" class="btn btn-default">Visit Portfolio</a>								
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="poject-thumbnail col-xs-12 col-sm-6 col-md-4">
 					<div class="thumbnail">
 						<img src="http://images.tenplay.com.au/~/media/TV%20Shows/The%20Project/Design/2016/TheProject_2016_Logo_500x281.jpg" class="img-responsive" alt="project-image">
@@ -297,14 +341,18 @@
 				</li>
 			</ul>
 		</section><!-- End of 'contact-info' section -->
-		<footer>
-			<p>Follow me on social media</p>
-			<ul class="social-media-list">
-				<li><a href="#"><i class="fa fa-facebook social-icons"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin social-icons"></i></a></li>
-				<li><a href="#"><i class="fa fa-github social-icons"></i></a></li>
-			</ul>
-		</footer>
 	</div>
+	<footer>
+		<div id="footer-wrapper">
+			<div class="row">
+				<p>Follow me on social media</p>
+				<ul class="social-media-list">
+					<li><a href="#"><i class="fa fa-facebook social-icons"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin social-icons"></i></a></li>
+					<li><a href="#"><i class="fa fa-github social-icons"></i></a></li>
+				</ul>
+			</div>			
+		</div>
+	</footer>
 </body>
 </html>
