@@ -1,9 +1,22 @@
-#wrapper {
+body {
+	/*background-color: #444;*/
+}
+
+/* Styling the header  */
+#header-wrapper {
 	max-width: 850px;
+	margin: 0 auto;
 }
 
 .page-header {
-	/*text-align: center;*/
+	margin-top: 0px;
+	padding: 10px 15px;
+	background-color: #222;
+	color: white;
+}
+
+#wrapper {
+	max-width: 850px;
 }
 
 #img-container img{
@@ -34,6 +47,10 @@
 }
 
 /* Styling the Work experience section */
+#work-experience {
+	background-color: #fafafa;
+}
+
 .job-items {
 	margin-bottom: 5px;
 }
@@ -53,6 +70,10 @@
 }
 
 /* Styling the Education section */
+#education {
+	background-color: #fafafa;
+}
+
 .edu-item {
 	margin-bottom: 5px;
 }
@@ -79,6 +100,10 @@
 }
 
 /* Styling the skills section */
+#skill-container {
+	background-color: #fafafa;
+}
+
 .progress {
 	height: 14px;
 }
@@ -100,8 +125,11 @@
 /* Styling for footer */
 footer {
 	text-align: center;
-	background-color: #000;
 	color: #ebebeb;
+}
+
+#footer-back-container {
+	background-color: #222;
 }
 
 footer p {
@@ -114,8 +142,8 @@ footer p {
 
 .social-media-list li {
 	display: inline-block;
-	padding: 5px;
-	font-size: 18px;
+	padding: 10px;
+	font-size: 30px;
 }
 
 .sub-container {
