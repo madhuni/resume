@@ -15,6 +15,7 @@ body {
 	color: white;
 }
 
+/* Styling the wrapper */
 #wrapper {
 	max-width: 850px;
 }
@@ -122,14 +123,17 @@ body {
 .icon-container h3 {
 	margin-top: 10px;
 }
+
 /* Styling for footer */
 footer {
+	background-color: #222;
 	text-align: center;
 	color: #ebebeb;
 }
 
-#footer-back-container {
-	background-color: #222;
+#footer-wrapper {
+	max-width: 850px;
+	margin: 0 auto;
 }
 
 footer p {
