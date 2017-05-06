@@ -3,11 +3,11 @@
 }
 
 .page-header {
-	text-align: center;
+	/*text-align: center;*/
 }
 
 #img-container img{
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 
 .employment-details {
@@ -120,4 +120,28 @@ footer p {
 
 .sub-container {
 	padding-left: 15px;
+}
+
+/* Media query for the contact info */
+
+@media screen and (min-width: 460px) and (max-width: 650px){
+
+	.contact-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.contact-item {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 651px) {
+	.contact-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.contact-item {
+		width: 33.33%;
+	}
 }
