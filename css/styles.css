@@ -6,6 +6,7 @@ body {
 #header-wrapper {
 	max-width: 850px;
 	margin: 0 auto;
+	padding-left: 10px;
 }
 
 .page-header {
@@ -20,14 +21,29 @@ body {
 	max-width: 850px;
 }
 
-#img-container img{
-	/*margin: 0 auto;*/
+/* Styling common to all sections on the page */
+section {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	/*margin-bottom: 20px; */
 }
 
+.section-heading {
+	margin-top: 10px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Styling the job section */
 .employment-details {
 	margin-bottom: 15px;
 }
 
+/* Styling the timeline */
 .timeline {
 	padding-left: 15px;
 	border-left: 1px solid;
@@ -88,6 +104,10 @@ body {
 
 .btn {
 	margin-bottom: 5px;
+}
+
+.thumbnail img {
+	border: 1px solid #ebebeb;
 }
 
 /* Styling the online courses section */
