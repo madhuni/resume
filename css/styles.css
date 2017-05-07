@@ -107,6 +107,15 @@ p {
 	margin-bottom: 5px;
 }
 
+.thumbnail {
+	box-shadow: 10px 10px 10px #e7e9ea;
+	transition: all .3s ease;
+}
+
+.thumbnail:hover {
+	box-shadow: 5px 5px 5px #e7e9ea;	
+}
+
 .thumbnail img {
 	border: 1px solid #ebebeb;
 }
