@@ -130,7 +130,8 @@ p {
 }
 
 /* Styling the contact-section */
-.contact-list {
+.contact-list,
+.achievements-list {
 	list-style: none;
 	padding-left: 0;
 }
