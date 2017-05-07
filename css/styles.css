@@ -1,19 +1,20 @@
 body {
-	/*background-color: #444;*/
+	width: 100% !important;
 }
 
 /* Styling the header  */
-#header-wrapper {
-	max-width: 850px;
-	margin: 0 auto;
-	padding-left: 10px;
-}
 
 .page-header {
 	margin-top: 0px;
 	padding: 10px 15px;
 	background-color: #222;
 	color: white;
+}
+
+#header-wrapper {
+	max-width: 850px;
+	margin: 0 auto;
+	padding-left: 10px;
 }
 
 /* Styling the wrapper */
@@ -126,7 +127,7 @@ p {
 }
 
 .progress {
-	height: 14px;
+	height: 8px;
 }
 
 /* Styling the achievments sections */
