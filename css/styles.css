@@ -129,11 +129,51 @@ p {
 	height: 14px;
 }
 
-/* Styling the contact-section */
-.contact-list,
+/* Styling the achievments sections */
+
 .achievements-list {
+	padding-top: 5px;
+}
+
+.achievement-title {
+	font-weight: bold;
+}
+
+.achievements-items {
+	padding: 5px 0 0 10px;
+	border-left: 1px solid orange;
+	border-left-width: 5px;
+	background-color: #f3f3f3;
+}
+/* Common styling for lists */
+
+.contact-list,
+.achievements-list,
+.hobbies-list {
 	list-style: none;
 	padding-left: 0;
+}
+
+/* Styling hobbies section */
+
+.hobbies-list {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.hobbies-items {
+	width: 15%;
+	font-size: 16px;
+	padding: 10px;
+	margin-right: 10px;
+	background-color: #544c4c;
+}
+
+/* Styling the contact-section */
+
+#contact-info {
+	background-color: #fafafa;
 }
 
 .icon-container {
