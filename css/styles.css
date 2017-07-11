@@ -122,7 +122,7 @@ p {
 }
 
 .project-thumbnail {
-	width: 300px !important;
+	width: 300px;
 	display: inline-block;
 	flex: 0 0 auto;
 }
@@ -344,5 +344,9 @@ footer p {
 @media screen and (max-width: 550px) {
 	section {
 		padding: 10px 10px 10px 20px;
+	}
+
+	.project-thumbnail {
+		width: 270px !important;
 	}
 }
